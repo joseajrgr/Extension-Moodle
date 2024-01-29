@@ -7,4 +7,4 @@ Se implementan dos archivos JavaScript
 
 El archivo ```main.js``` se implementan directamente y de forma automática obteniendo los cursos directamente desde la página.
 
-Sólo se ha testeado esta extension en el navegador Chrome pudiendo instalarla desde el gestor de extensiones.
+Sólo se ha testeado esta extensión en el navegador Chrome pudiendo instalarla desde el gestor de extensiones.
