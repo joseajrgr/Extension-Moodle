@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "BetterModdle by Joseajgj",
+    "description": "Para aquellos que esten hasta los huevos del aula global",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "activeTab"
+      ],
+    "action": {
+      
+      "default_icon": {
+        "16": "images/penguin.png",
+        "48": "images/camera48.png",
+        "128": "images/camera128.png"
+      }
+    },
+    "icons": {
+      "16": "images/penguin.png",
+      "48": "images/camera48.png",
+      "128": "images/camera128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://aulaglobal.uc3m.es/*"],
+        "js": ["main.js"]
+      }
+    ]
+  }
+  
